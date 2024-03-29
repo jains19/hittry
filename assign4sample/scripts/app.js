@@ -462,7 +462,7 @@ const Stats = {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
     function LoadHeader() {
-        $.get("/views/components/header.html", function (html_data) {
+        $.get("./views/components/header.html", function (html_data) {
             $("header").html(html_data);
             document.title = capitalizeFirstLetter(router.ActiveLink);
             $(`li>a:contains(${document.title})`).addClass("active").attr("aria-current", "page");
