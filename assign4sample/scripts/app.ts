@@ -682,7 +682,7 @@ interface D3StatsType {
     }
 
     function LoadHeader(){
-        $.get("/views/components/header.html", function(html_data) {
+        $.get("./views/components/header.html", function(html_data) {
 
             $("header").html(html_data);
             document.title = capitalizeFirstLetter(router.ActiveLink);
