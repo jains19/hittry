@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Compiled binary addons (Node-gyp)
+build/
+
+# Local development env files
+.env.local
+
+# Dependency files
+package-lock.json
+yarn.lock
+
+# Mac OS
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
